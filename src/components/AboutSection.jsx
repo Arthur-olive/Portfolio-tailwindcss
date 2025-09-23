@@ -14,15 +14,20 @@ export const AboutSection = () => {
                         <h3 className="text-2xl font-semibold">Desenvolvedor Front-End</h3>
 
                         <p className="text-muted-foreground">
-                            With over 5 years of experience in web development, I specialize in
-                            creating responsive, accessible, and performant web applications using
-                            modern technologies.
+                            Meu nome é João Arthur de Oliveira Pereira, sou graduando em Engenharia
+                            da Computação e atuo como desenvolvedor front-end. Tenho como foco a
+                            criação de experiências web modernas, funcionais e intuitivas, sempre
+                            alinhando tecnologia e design para entregar soluções que realmente fazem
+                            a diferença.
                         </p>
 
                         <p className="text-muted-foreground">
-                            I'm passionate about creating elegant solutions to complex problems, and
-                            I'm constantly learning new technologies and techniques to stay at the
-                            forefront of the ever-evolving web landscape.
+                            Meu estilo combina o minimalismo com o design moderno, resultando em
+                            interfaces que não apenas funcionam de forma eficiente, mas também
+                            proporcionam uma experiência visual marcante e envolvente. Busco
+                            constantemente aprimorar minhas habilidades e acompanhar as tendências
+                            do setor para desenvolver projetos que unam qualidade, inovação e
+                            impacto.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -32,7 +37,8 @@ export const AboutSection = () => {
                             </a>
 
                             <a
-                                href=""
+                                target="_blank"
+                                href="https://drive.google.com/file/d/1tf9e175HupM20kfAu_uFUCNX7cylnvst/view?usp=drive_link"
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                                 Download CV
                             </a>
@@ -46,10 +52,10 @@ export const AboutSection = () => {
                                     <Code className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Web Development</h4>
+                                    <h4 className="font-semibold text-lg">Desenvolvimento Web</h4>
                                     <p className="text-muted-foreground">
-                                        Creating responsive websites and web applications with
-                                        modern frameworks.
+                                        Criação de sites e aplicativos web responsivos com
+                                        frameworks modernos.
                                     </p>
                                 </div>
                             </div>
@@ -62,8 +68,8 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">UI/UX Design</h4>
                                     <p className="text-muted-foreground">
-                                        Designing intuitive user interfaces and seamless user
-                                        experiences.
+                                        Projetando interfaces de usuário intuitivas e experiências
+                                        de usuário fascinantes.
                                     </p>
                                 </div>
                             </div>
@@ -75,10 +81,12 @@ export const AboutSection = () => {
                                 </div>
 
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Project Management</h4>
+                                    <h4 className="font-semibold text-lg">
+                                        Gerenciamento de projetos
+                                    </h4>
                                     <p className="text-muted-foreground">
-                                        Leading projects from conception to completion with agile
-                                        methodologies.
+                                        Liderando projetos desde a concepção até a conclusão com
+                                        metodologias eficientes.
                                     </p>
                                 </div>
                             </div>
