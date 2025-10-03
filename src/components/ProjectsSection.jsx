@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "SaaS Landing Page",
-        description: "A beautiful landing page app using React and Tailwind.",
+        title: "Página Apple Store",
+        description:
+            "Clone da Apple Store, feito com objetivo de aplicar meus aprendizados e funcionalidades do JavaScript",
         image: "/projects/APPLE.png",
-        tags: ["React", "TailwindCSS", "Supabase"],
+        tags: ["HTML", "CSS", "JavaScript"],
         demoUrl: "#",
         githubUrl: "https://github.com/Arthur-olive/EstudosFrontEnd/tree/main/PROJETO-3-IPHONE",
     },
     {
         id: 2,
-        title: "Orbit Analytics Dashboard",
-        description:
-            "Interactive analytics dashboard with data visualization and filtering capabilities.",
+        title: "QR Code Generator",
+        description: " Projeto feito utilizando HTML, CSS, JavaScript e uma API de QR Code",
         image: "/projects/QRCODE.png",
-        tags: ["TypeScript", "D3.js", "Next.js"],
+        tags: ["HTML", "CSS", "JavaScript"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl:
+            "https://github.com/Arthur-olive/EstudosFrontEnd/tree/main/PROJETO-2-QRCODEGENERATOR",
     },
     {
         id: 3,
-        title: "E-commerce Platform",
-        description:
-            "Full-featured e-commerce platform with user authentication and payment processing.",
+        title: "Tabuada",
+        description: "Projeto de uma tabuada utilizando apenas JavaScript puro, HTML e CSS",
         image: "/projects/TABUADA.png",
-        tags: ["React", "Node.js", "Stripe"],
+        tags: ["HTML", "CSS", "JavaScript"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/Arthur-olive/EstudosFrontEnd/tree/main/PROJETO-1-TABUADA",
     },
 ];
 
